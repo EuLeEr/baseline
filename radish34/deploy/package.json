@@ -22,7 +22,7 @@
     "bl": ">=0.9.5",
     "config": "^3.2.4",
     "etherlime-lib": "^1.2.1",
-    "ethers": "^4.0.46",
+    "ethers": "^4.0.48",
     "hex-to-binary": "1.0.1",
     "keccak": "^2.1.0",
     "radish34-logger": "file:../logger",
