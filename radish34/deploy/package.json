@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "axios": "^0.19.0",
-    "bl": ">=0.9.5",
+    "bl": ">=4.0.3",
     "config": "^3.2.4",
     "etherlime-lib": "^1.2.1",
     "ethers": "^4.0.46",
