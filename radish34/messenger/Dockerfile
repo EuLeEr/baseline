@@ -1,5 +1,5 @@
 FROM radish34_logger as logger
-FROM node:12.16
+FROM node:12.20.1
 
 ENV FORCE_COLOR=1
 
