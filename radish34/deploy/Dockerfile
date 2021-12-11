@@ -1,5 +1,5 @@
 FROM radish34_logger as logger
-FROM node:13.3
+FROM node:13.10
 
 RUN \
   apt-get update -y && \
