@@ -47,7 +47,7 @@
     "lodash": "^4.17.15",
     "mongodb": "^3.5.5",
     "mongoose": "^5.9.5",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^3.2.10",
     "object-hash": "^2.0.3",
     "radish34-logger": "file:../logger",
     "request": "^2.88.2",
