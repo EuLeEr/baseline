@@ -48,7 +48,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.5",
     "radish34-logger": "file:../logger",
-    "web3": "^1.2.6"
+    "web3": "^1.7.5"
   },
   "devDependencies": {
     "apidoc": "^0.20.1",
