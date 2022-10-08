@@ -9,14 +9,17 @@
   "scripts": {
     "build": "babel src -d dist",
     "start": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "chalk": "^4.0.0",
     "express-winston": "^4.0.3",
     "os": "^0.1.1",
     "path": "^0.12.7",
-    "winston": "^3.2.1"
+    "winston": "^3.2.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -24,5 +27,6 @@
     "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.9.6"
   },
-  "license": "SEE LICENSE in root/license.md"
+  "license": "SEE LICENSE in root/license.md",
+  "snyk": true
 }
