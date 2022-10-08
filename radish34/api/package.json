@@ -24,37 +24,40 @@
     "lint:md": "markdownlint -i node_modules -i dist .",
     "test": "jest --watchAll --verbose=true --silent",
     "test:ci": "jest --verbose=true --silent --ci --coverage",
-    "validate": "npm run lint && npm run lint:md"
+    "validate": "npm run lint && npm run lint:md",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "apollo-server": "^2.11.0",
-    "apollo-server-express": "^2.11.0",
-    "axios": "^0.19.2",
+    "apollo-server": "^3.0.0",
+    "apollo-server-express": "^3.0.0",
+    "axios": "^0.21.3",
     "big-integer": "^1.6.47",
     "body-parser": "^1.19.0",
     "bull": "^3.13.0",
-    "bull-board": "^0.6.0",
+    "bull-board": "^1.3.0",
     "config": "^3.3.0",
     "cors": "^2.8.5",
-    "elliptic": "^6.5.2",
-    "ethers": "^4.0.46",
+    "elliptic": "^6.5.4",
+    "ethers": "^4.0.49",
     "express": "^4.17.1",
     "graphql": "^14.6.0",
     "graphql-subscriptions": "^1.1.0",
     "graphql-tag": "^2.10.3",
     "hex-to-binary": "1.0.1",
     "keccak": "^2.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "mongodb": "^3.5.5",
-    "mongoose": "^5.9.5",
-    "node-fetch": "^2.6.0",
+    "mongoose": "^5.13.15",
+    "node-fetch": "^2.6.7",
     "object-hash": "^2.0.3",
     "radish34-logger": "file:../logger",
     "request": "^2.88.2",
     "safe-buffer": "^5.2.0",
     "uuidv4": "^6.0.6",
-    "web3-utils": "^1.2.6",
-    "zokrates-pycryptojs": "1.0.3"
+    "web3-utils": "^1.3.6",
+    "zokrates-pycryptojs": "1.0.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -76,5 +79,6 @@
     "extends": [
       "./node_modules/cod-scripts/eslint.js"
     ]
-  }
+  },
+  "snyk": true
 }
