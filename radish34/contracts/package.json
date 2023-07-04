@@ -20,7 +20,7 @@
     "truffle": "^5.1.21"
   },
   "dependencies": {
-    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-env": "^7.22.6",
     "ethereum-doppelganger": "^0.0.7",
     "ethers": "^4.0.46",
     "openzeppelin-solidity": "^2.5.0"
