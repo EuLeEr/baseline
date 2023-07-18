@@ -46,7 +46,7 @@
     "keccak": "^2.1.0",
     "lodash": "^4.17.15",
     "mongodb": "^3.5.5",
-    "mongoose": "^5.9.5",
+    "mongoose": "^5.13.20",
     "node-fetch": "^2.6.0",
     "object-hash": "^2.0.3",
     "radish34-logger": "file:../logger",
