@@ -32,7 +32,7 @@
     "express": "^4.17.1",
     "mongodb": "^3.5.5",
     "radish34-logger": "file:../logger",
-    "supertest": "^4.0.2",
+    "supertest": "^7.0.0",
     "yargs": "15.1.0"
   },
   "devDependencies": {
